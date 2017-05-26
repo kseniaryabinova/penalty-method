@@ -1,0 +1,12 @@
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\penalty method.exe.config
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\penalty method.exe
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\penalty method.pdb
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty method.csprojResolveAssemblyReference.cache
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty_method.Form1.resources
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty_method.Properties.Resources.resources
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty method.csproj.GenerateResource.Cache
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty method.exe
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\obj\Debug\penalty method.pdb
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\Jace.dll
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\MathNet.Numerics.dll
+O:\Документы\Visual Studio 2015\Projects\penalty method\penalty method\bin\Debug\MathNet.Numerics.xml
