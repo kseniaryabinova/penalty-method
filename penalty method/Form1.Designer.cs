@@ -62,14 +62,14 @@
             this.output.Location = new System.Drawing.Point(12, 93);
             this.output.Name = "output";
             this.output.ReadOnly = true;
-            this.output.Size = new System.Drawing.Size(554, 548);
+            this.output.Size = new System.Drawing.Size(554, 680);
             this.output.TabIndex = 4;
             this.output.Text = "";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(12, 647);
+            this.button1.Location = new System.Drawing.Point(12, 779);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(554, 53);
             this.button1.TabIndex = 2;
@@ -81,13 +81,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 716);
+            this.ClientSize = new System.Drawing.Size(579, 888);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.output);
             this.Controls.Add(this.penalty);
             this.Controls.Add(this.equation);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "метод штрафных функций";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

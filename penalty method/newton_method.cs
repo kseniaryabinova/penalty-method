@@ -43,7 +43,7 @@ namespace methods_of_optimisation.classes
                 else
                     vect[vect.Count - 1] = r2 *= 10;
                 if (r2 == 100000000000000000d)
-                    return str + "r2 > 100000000000000000d";
+                    return str + "r2 > 100000000000000000";
 
                 grad = gradient(vect);
                 Hesse(vect);
@@ -51,13 +51,13 @@ namespace methods_of_optimisation.classes
                 vect = vect + H.Inverse() * (-grad);
 
                 str += "\tитерация №" + (1001 - N);
-                str += "}\r\nминимум = {";
+                str += "\r\nминимум = {";
                 for (int i = 0; i<vect.Count - 1; ++i)
                     str += (Math.Round(vect[i], 6)).ToString() + ";  ";
                 str = str.Substring(0, str.Length - 3);
                 str += "}\r\nr = " + vect[vect.Count - 1];
                 str += "\r\nr2 = " + r2;
-                str += "\r\nf = " + f(vect.ToArray()) + "r\n\r\n";
+                str += "\r\nf = " + f(vect.ToArray()) + "\r\n\r\n";
 
                 if (--N == 0)
                     return str + "число итераций достигло максимума";
